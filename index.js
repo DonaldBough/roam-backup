@@ -40,10 +40,10 @@ const generateExport = async () => {
     console.log("Successfully logged in");
 
     await page.waitForSelector(
-      ".flex-h-box > div > .bp3-popover-wrapper > .bp3-popover-target > .bp3-button"
+      ".rm-db-card a"
     );
     await page.click(
-      ".flex-h-box > div > .bp3-popover-wrapper > .bp3-popover-target > .bp3-button"
+      ".rm-db-card a"
     );
 
     console.log("Opening Export menu");
