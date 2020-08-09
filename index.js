@@ -49,10 +49,10 @@ const generateExport = async () => {
     console.log("Opening Export menu");
 
     await page.waitForSelector(
-      ".bp3-popover-content > .bp3-menu > li:nth-child(3) > .bp3-menu-item > .bp3-text-overflow-ellipsis"
+      ".bp3-icon-more"
     );
     await page.click(
-      ".bp3-popover-content > .bp3-menu > li:nth-child(3) > .bp3-menu-item > .bp3-text-overflow-ellipsis"
+      ".bp3-icon-more"
     );
 
     await page.waitForSelector(
